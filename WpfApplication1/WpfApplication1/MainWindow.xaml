@@ -8,15 +8,15 @@
         Title="MainWindow" Height="467.568" Width="677.703">
     <Grid RenderTransformOrigin="0.502,0.479">
         <Grid.RowDefinitions>
-            <RowDefinition Height="139*"/>
-            <RowDefinition Height="150*"/>
-            <RowDefinition Height="148*"/>
+            <RowDefinition Height="149*"/>
+            <RowDefinition Height="147*"/>
+            <RowDefinition Height="141*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="110*"/>
             <ColumnDefinition Width="113*"/>
             <ColumnDefinition Width="112*"/>
         </Grid.ColumnDefinitions>
-
+        <Button x:Name="button" Content="Callouts" HorizontalAlignment="Left" VerticalAlignment="Top" Width="220" RenderTransformOrigin="-0.914,-1.631" Height="149" Click="button_Click"/>
     </Grid>
 </Window>
