@@ -24,5 +24,10 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+        private void lock_btn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
