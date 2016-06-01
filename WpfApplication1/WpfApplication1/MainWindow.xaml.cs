@@ -27,7 +27,8 @@ namespace WpfApplication1
 
         private void lock_btn_Click(object sender, RoutedEventArgs e)
         {
-
+            Lock_Screen lock_screen = new Lock_Screen();
+            lock_screen.Show();
         }
     }
 }
