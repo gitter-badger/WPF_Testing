@@ -17,14 +17,14 @@
             <ColumnDefinition Width="113*"/>
             <ColumnDefinition Width="112*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="button" Content="Alarm" HorizontalAlignment="Left" VerticalAlignment="Top" Width="442" RenderTransformOrigin="-0.914,-1.631" Height="319" Click="button_Click"/>
-        <Button x:Name="button1" Content="Text To Speech" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="455" Height="319"/>
-        <Button x:Name="button2" Content="Notepad" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Width="442" Height="314"/>
-        <Button x:Name="button3" Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Width="455" Grid.Column="1" Grid.Row="1" Height="314"/>
-        <Button x:Name="button4" Content="Web Browser" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="442" Height="302"/>
-        <Button x:Name="button5" Content="Settings" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="455" Height="302"/>
-        <Button x:Name="button6" Content="Lock" HorizontalAlignment="Left" VerticalAlignment="Top" Width="451" Grid.Column="2" Height="319" Click="button6_Click"/>
-        <Button x:Name="button7" Content="Callouts" HorizontalAlignment="Left" VerticalAlignment="Top" Width="451" Grid.Column="2" Grid.Row="1" Height="314"/>
-        <Button x:Name="button8" Content="Power" HorizontalAlignment="Left" VerticalAlignment="Top" Width="451" Grid.Column="2" Grid.Row="2" Height="302"/>
+        <Button x:Name="alarm_btn" Content="Alarm" HorizontalAlignment="Left" VerticalAlignment="Top" Width="442" RenderTransformOrigin="-0.914,-1.631" Height="319" Click="button_Click"/>
+        <Button x:Name="txtspeech_btn" Content="Text To Speech" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="455" Height="319"/>
+        <Button x:Name="notepad_btn" Content="Notepad" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Width="442" Height="314"/>
+        <Button x:Name="email_btn" Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Width="455" Grid.Column="1" Grid.Row="1" Height="314"/>
+        <Button x:Name="browser_btn" Content="Web Browser" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="442" Height="302"/>
+        <Button x:Name="settings_btn" Content="Settings" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="455" Height="302"/>
+        <Button x:Name="lock_btn" Content="Lock" HorizontalAlignment="Left" VerticalAlignment="Top" Width="451" Grid.Column="2" Height="319" Click="button6_Click"/>
+        <Button x:Name="callout_btn" Content="Callouts" HorizontalAlignment="Left" VerticalAlignment="Top" Width="451" Grid.Column="2" Grid.Row="1" Height="314"/>
+        <Button x:Name="power_btn" Content="Power" HorizontalAlignment="Left" VerticalAlignment="Top" Width="451" Grid.Column="2" Grid.Row="2" Height="302"/>
     </Grid>
 </Window>
