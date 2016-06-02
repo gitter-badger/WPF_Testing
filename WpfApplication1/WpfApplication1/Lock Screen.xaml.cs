@@ -29,5 +29,10 @@ namespace WpfApplication1
             Lock_Screen lock_screen = new Lock_Screen();
             lock_screen.Hide();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
