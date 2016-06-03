@@ -24,15 +24,16 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
+        private void backbtn_Click(object sender, RoutedEventArgs e)
         {
             Lock_Screen lock_screen = new Lock_Screen();
             lock_screen.Hide();
+            this.Close();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+          //  this.Close();
         }
     }
 }
