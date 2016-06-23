@@ -15,27 +15,27 @@ using System.Windows.Shapes;
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for Lock_Screen.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Lock_Screen : Window
+    public partial class Close_Screen : Window
     {
-        public Lock_Screen()
+        public Close_Screen()
         {
             InitializeComponent();
         }
 
-        private void backbtn_Click(object sender, RoutedEventArgs e)
-        {
-            Lock_Screen lock_screen = new Lock_Screen();
-            lock_screen.Hide();
-            this.Close();
-        }
-
         private void button_Click(object sender, RoutedEventArgs e)
         {
-          //  this.Close();
+            //if the "yes" button is pushed then the entire application is terminated
+
+            Environment.Exit(0);
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            //close the confirm quit window and return to the MainWindow.
+
+            this.Close();
         }
     }
-
-
 }
